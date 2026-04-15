@@ -1,6 +1,9 @@
+import tiger from './assets/tiger.jpg'
+import hero from './assets/hero.png'
 import './App.css'
 import App0 from './Day-01/App'
 import Card from './Day-02/Card'
+import Product from './Day-03/Product'
 function App() {
 
   return (
@@ -9,6 +12,8 @@ function App() {
     <Card />
     <Card />
     <App0 />
+    <Product image={tiger} name="Laptop" price={200000} />
+    <Product image={hero} name="Mobile" price={30000}/>
     </>
   );
   

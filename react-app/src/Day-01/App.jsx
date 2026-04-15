@@ -1,4 +1,4 @@
-import tiger from '../assets/tiger_laying_hero_background.jpg'
+import tiger from '../assets/tiger.jpg'
 import '/src/Day-01/App.css'
 
 function App(){
