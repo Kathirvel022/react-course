@@ -5,6 +5,7 @@ import App0 from './Day-01/App'
 import Card from './Day-02/Card'
 import Product from './Day-03/Product'
 import Events from './Day-04/Events'
+import State from './Day-05/State'
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
     <Product image={tiger} name="Laptop" price={200000} />
     <Product image={hero} name="Mobile" price={30000}/>
     <Events />
+    <State />
     </>
   );
   
