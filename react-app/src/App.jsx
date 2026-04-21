@@ -6,6 +6,8 @@ import Card from './Day-02/Card'
 import Product from './Day-03/Product'
 import Events from './Day-04/Events'
 import State from './Day-05/State'
+import Like from './Day-05/Liike'
+import Form from './Day-06/Form'
 function App() {
 
   return (
@@ -18,6 +20,8 @@ function App() {
     <Product image={hero} name="Mobile" price={30000}/>
     <Events />
     <State />
+    <Like />
+    <Form />
     </>
   );
   
