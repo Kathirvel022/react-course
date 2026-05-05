@@ -8,6 +8,8 @@ import Events from './Day-04/Events'
 import State from './Day-05/State'
 import Like from './Day-05/Liike'
 import Form from './Day-06/Form'
+import Condition from './Day-07/StatusMessage'
+
 function App() {
 
   return (
@@ -22,6 +24,10 @@ function App() {
     <State />
     <Like />
     <Form />
+    <Condition status="loading" />
+    <Condition status="success" />
+    <Condition status="error" />
+    <Condition />
     </>
   );
   
