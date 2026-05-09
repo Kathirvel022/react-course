@@ -9,6 +9,8 @@ import State from './Day-05/State'
 import Like from './Day-05/Liike'
 import Form from './Day-06/Form'
 import Condition from './Day-07/StatusMessage'
+import Map from './Day-08/Map'
+import Condition2 from './Day-07/Condition'
 
 function App() {
 
@@ -28,6 +30,8 @@ function App() {
     <Condition status="success" />
     <Condition status="error" />
     <Condition />
+    <Map />
+    <Condition2 />
     </>
   );
   
