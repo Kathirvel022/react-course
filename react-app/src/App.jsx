@@ -11,6 +11,7 @@ import Form from './Day-06/Form'
 import Condition from './Day-07/StatusMessage'
 import Map from './Day-08/Map'
 import Condition2 from './Day-07/Condition'
+import Fetch from './Day-09/Fetch'
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
     <Condition />
     <Map />
     <Condition2 />
+    <Fetch />
     </>
   );
   
