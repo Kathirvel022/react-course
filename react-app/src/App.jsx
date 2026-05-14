@@ -12,6 +12,8 @@ import Condition from './Day-07/StatusMessage'
 import Map from './Day-08/Map'
 import Condition2 from './Day-07/Condition'
 import Fetch from './Day-09/Fetch'
+import Routing from './Day-10/Routing'
+
 
 function App() {
 
@@ -34,6 +36,9 @@ function App() {
     <Map />
     <Condition2 />
     <Fetch />
+    <Routing />
+
+    
     </>
   );
   
